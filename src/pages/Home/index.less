@@ -36,10 +36,9 @@
 
     .app-header {
       display: grid;
-      grid-template-columns: minmax(-webkit-min-content, 175px) minmax(
-          -webkit-max-content,
-          1fr
-        ) minmax(-webkit-max-content, 400px);
+      grid-template-columns:
+        minmax(-webkit-min-content, 175px) minmax(-webkit-max-content, 1fr)
+        minmax(-webkit-max-content, 400px);
       grid-template-columns: minmax(min-content, 175px) minmax(max-content, 1fr) minmax(
           max-content,
           400px
@@ -99,10 +98,9 @@
     .app-body {
       height: 100%;
       display: grid;
-      grid-template-columns: minmax(-webkit-min-content, 175px) minmax(
-          -webkit-max-content,
-          1fr
-        ) minmax(-webkit-min-content, 400px);
+      grid-template-columns:
+        minmax(-webkit-min-content, 175px) minmax(-webkit-max-content, 1fr)
+        minmax(-webkit-min-content, 400px);
       grid-template-columns: minmax(min-content, 175px) minmax(max-content, 1fr) minmax(
           min-content,
           400px
@@ -157,9 +155,13 @@
       font-size: 0.75rem;
       color: var(--c-text-tertiary);
     }
-
+    h1,
+    h2 {
+      color: #ffffff;
+    }
     .logo {
       display: flex;
+      height: 50px;
       align-items: center;
       padding-bottom: 1rem;
       padding-top: 1rem;

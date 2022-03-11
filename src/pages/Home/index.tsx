@@ -1,5 +1,5 @@
 import styles from './index.less';
-
+import { ReactComponent as Timebank } from '@/assets/Timebank.svg';
 export default function IndexPage() {
   return (
     <div className={styles.home}>
@@ -7,13 +7,7 @@ export default function IndexPage() {
         <header className="app-header">
           <div className="app-header-logo">
             <div className="logo">
-              <span className="logo-icon">
-                <img src="https://assets.codepen.io/285131/almeria-logo.svg" />
-              </span>
-              <h1 className="logo-title">
-                <span>Almeria</span>
-                <span>NeoBank</span>
-              </h1>
+              <Timebank />
             </div>
           </div>
           <div className="app-header-navigation">
